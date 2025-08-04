@@ -1,21 +1,18 @@
-import React, { Component } from 'react';
-import './App.css';
-import { Dummy } from './components/Dummy'
-import Spamalot from './components/Spamalot';
-import NavBar from './components/NavBar';
-import Checkout from './components/Checkout';
-import Menu from './components/Menu';
-
+import React, { Component } from "react";
+import "./App.css";
+import { Dummy } from "./components/Dummy";
+import Spamalot from "./components/Spamalot";
+import NavBar from "./components/NavBar";
+import Checkout from "./components/Checkout";
+import Menu from "./components/Menu";
 
 export function App() {
-  
   return (
     <div className="app">
-
       <div className="ex-space">
         <h4 className="ex-title">Exercise 1</h4>
         <div className="exercise" id="ex-1">
-          {/* your code here... */}
+          <Dummy />
         </div>
       </div>
 
@@ -33,6 +30,5 @@ export function App() {
         </div>
       </div>
     </div>
-  )
+  );
 }
-

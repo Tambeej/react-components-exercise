@@ -1,5 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-const Dummy = () => {}
+export const Dummy = () => {
+  return (
+    <div>
+      <input type="text" placeholder="Type something..." />
+      <button>Click</button>
+    </div>
+  );
+};
 
-export default Dummy
